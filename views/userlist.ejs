@@ -1,0 +1,8 @@
+
+
+	<h1>User List</h1>
+    <ul>
+    	<% userlist.forEach(function(user, index){ %>
+       	<li><a href="mailto:<%=user.email%>"><%= user.username %></li>
+    	<% }) %>
+    </ul>
